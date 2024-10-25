@@ -12,4 +12,4 @@ predicate isLongerThan(Function f) {
 
 from Function function
 where isLongerThan(function)
-select function "is longer than 10 lines, num lines = "
+select function, "is longer than 10 lines"
